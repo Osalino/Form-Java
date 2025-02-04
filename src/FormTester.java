@@ -15,6 +15,7 @@ public class FormTester {
             int age = scanner.nextInt();
             scanner.nextLine();
 
+
             Form user = new Form(name, lastname, age, "");
             user.ageCheck();
 
